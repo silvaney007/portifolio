@@ -1,0 +1,13 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:#BB6BD9;
+    height: 10vh;
+    width: 100%;
+}
+
+ul li {
+	display: inline-block;
+    padding: 20px;
+}
