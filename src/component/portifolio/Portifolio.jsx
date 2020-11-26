@@ -5,7 +5,6 @@ import "./Portifolio.css";
 function portifolio () {
 	return (
 		<div className="portifolio">
-			<p>Portifolio</p>
 		</div>
 	);
 };

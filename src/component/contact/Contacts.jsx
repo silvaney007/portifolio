@@ -6,7 +6,6 @@ function contacts (){
 
 	return (
 		<div className="contacts">
-			<p>Contact</p>
 		</div>
 	);
 };
