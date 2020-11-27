@@ -5,7 +5,7 @@ import img1 from "../../img/img2noskate.svg";
 function portifolio() {
 	return (
 		<div className="portifolio">
-			<h1>🌟Portifolio 🌟</h1>
+			<h1>🌟 Portifolio 🌟</h1>
 			<div className="container-grid">
 				<div className="grid-item">
 					<div className="card-port">

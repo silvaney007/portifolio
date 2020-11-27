@@ -7,7 +7,7 @@ function skills() {
 	return (
 		<div className="skills">
 			<div className="skills-tittle">
-				<h1> 🌟Skills 🌟</h1>
+				<h1>🌟 Skills 🌟</h1>
 			</div>
 			<div className="skills-container">
 				<div className="skill">
