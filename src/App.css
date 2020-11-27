@@ -6,6 +6,13 @@
 
 body {
 	color: #101820ff;
-	background-color: #fee715ff;
+	background: linear-gradient(
+		to top,
+		rgba(254, 231, 21, 1),
+		rgba(254, 231, 21, 1),
+		rgba(255, 255, 246, 1),
+		rgba(254, 231, 21, 1),
+		rgba(254, 231, 21, 1)
+	);
 	font-family: "Nerko One", cursive;
 }

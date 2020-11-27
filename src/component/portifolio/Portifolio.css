@@ -1,3 +1,40 @@
 .portifolio {
-	height: 100vh;
+	min-height: 100vh;
+}
+
+.portifolio h1 {
+	height: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-grid {
+	padding: 10rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-port {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: green;
+	border-radius: 20px;
+	height: 18rem;
+}
+
+.card-port img {
+	width: 12rem;
+	height: 12rem;
+	border-radius: 50%;
+	background-color: white;
+	background-image: url("../../img/bright-squares.png");
+}
+
+.detail-port {
+	text-align: center;
 }

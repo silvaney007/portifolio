@@ -1,11 +1,11 @@
 import React from "react";
-import "./About.css";
+import "./Home.css";
 import img1 from "../../img/img2noskate.svg";
 
 const annimation = (event) => {
 
 	const card = document.querySelector(".card");
-	const container = document.querySelector(".container");
+	const container = document.querySelector(".home-container");
 	const logo = document.querySelector(".logo img");
 	const tittle = document.querySelector(".info h1");
 	const description = document.querySelector(".info p");
@@ -30,14 +30,13 @@ const annimation = (event) => {
 		logo.style.transform = "translateZ(0px) rotateZ(0deg)";
 		tittle.style.transform = "translateZ(0px)";
 		description.style.transform = "translateZ(0px)";
-		description.style.transform = "translateZ(0px)";
 	});
 };
 
 function about() {
 	return (
-		<div className="about">
-			<div className="container" onMouseMove={annimation}>
+		<div className="home">
+			<div className="home-container" onMouseMove={annimation}>
 				<div className="card">
 					<div className="logo">
 						<div className="circle"></div>
@@ -49,7 +48,7 @@ function about() {
 					</div>
 				</div>
 			</div>
-		</div>
+			</div>
 	);
 }
 
